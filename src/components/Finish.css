@@ -1,0 +1,41 @@
+.Finish{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    transform: translateY(100%);
+    transition: all .5s;
+    color: #e07a5f;
+    text-align: center;
+}
+
+.FinishShow{
+    transform: translateY(-100%);
+}
+
+.Back{
+    margin: 30px;
+    border-radius: 30px;
+    border: 2px solid #e07a5f;
+    padding: 5px;
+    padding-left:30px;
+    padding-right:30px;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.Back:hover{
+    border: 2px solid #3d405b;
+    color: #3d405b;
+}
+
+#Arrow{
+    margin-right: 15px;
+    transition: all .5s;
+}
+
+.Back:hover > #Arrow{
+    transform: rotate(90deg);
+}

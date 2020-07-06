@@ -1,0 +1,25 @@
+.About{
+    color:#3d405b;
+    width: 100%;
+    font-size: larger;
+    box-sizing: border-box;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.Quote{
+    width:50%;
+    line-height: 2;
+    margin-bottom: 10px;
+}
+.From{
+    margin-top: 0px;
+    font-size: smaller;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Quote {
+      width: 100%;
+    }
+  }

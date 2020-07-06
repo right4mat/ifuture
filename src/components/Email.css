@@ -1,0 +1,127 @@
+.Email{
+    position: relative;
+
+    margin-left:30px;
+    margin-right:30px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 30px;
+    color: #3d405b;
+}
+
+.Email > textarea{
+    width: 100%;
+    min-height: 250px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid #d3d3d3;
+    font-size: larger;
+}
+
+.Button{
+    border-radius: 15px;
+    border: 1px solid #d3d3d3;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 15px;
+    cursor: pointer;
+    
+}
+
+.Button:hover{
+    border: 1px solid #3d405b;
+}
+
+.Selected{
+    background-color: #f2cc8f;
+}
+
+.Deliver{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.SendTo{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid #d3d3d3;
+    color:#3d405b;
+    width: 40%;
+    padding: 10px;
+    
+}
+
+.SendTo > input{
+    width:100%;
+    height: 100%;
+    border: 0px solid #000;
+    margin-left: 15px;
+    font-size: large;
+}
+
+.Submit {
+    background: linear-gradient(270deg, #f2cc8f, #e07a5f);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+    margin-top: 30px;
+    color:#fff;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    border: 1px solid #d3d3d3;
+    font-size: larger;
+    margin-bottom: 100px;
+    
+}
+
+.Submit:hover{
+    border: 1px solid #3d405b;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@media only screen and (max-width: 600px) {
+    .SendTo {
+      width: 90%;
+      border-radius: 5px;
+      font-size: larger;
+    }
+    .SendTo > input{
+        font-size: medium;
+    }
+    .Email{
+        margin: 0;
+        width: 100%;
+        
+    }
+
+    .Button{
+        padding: 10px;
+        border-radius: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        
+    }
+  }
